@@ -8,12 +8,11 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: #f8f9fa;
+            background: url('https://www.transparenttextures.com/patterns/american-flag.png') repeat;
             color: #333;
         }
         header {
-            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Garrison_flag.svg/1280px-Garrison_flag.svg.png') no-repeat center center;
-            background-size: cover;
+            background: rgba(0, 0, 0, 0.6);
             color: white;
             text-align: center;
             padding: 100px 20px 50px;
@@ -29,7 +28,7 @@
         section.tagline {
             text-align: center;
             padding: 30px 20px;
-            background: #e2e6ea;
+            background: rgba(255, 255, 255, 0.9);
         }
         section.tagline ul {
             list-style-type: none;
@@ -44,12 +43,40 @@
             flex-wrap: wrap;
             justify-content: center;
             padding: 30px 10px;
+            background: rgba(255, 255, 255, 0.95);
         }
         .gallery img {
             max-width: 300px;
             margin: 10px;
             border-radius: 8px;
             border: 2px solid #ccc;
+        }
+        section.accomplishments {
+            padding: 30px 20px;
+            background: white;
+            text-align: center;
+        }
+        section.accomplishments h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        section.accomplishments ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        section.accomplishments ul li {
+            margin: 10px 0;
+            padding-left: 1em;
+            position: relative;
+        }
+        section.accomplishments ul li::before {
+            content: "✅";
+            position: absolute;
+            left: 0;
         }
         footer {
             text-align: center;
@@ -69,7 +96,18 @@
         <ul>
             <li><strong>Transparency in Government</strong></li>
             <li><strong>Proper Growth</strong></li>
-            <li><strong>Keeping Our Roads in the Best Shape Possible</strong></li>
+        </ul>
+    </section>
+    <section class="accomplishments">
+        <h2>Our Accomplishments</h2>
+        <ul>
+            <li>Increased transparency with public record access</li>
+            <li>Protected taxpayer dollars through responsible budgeting</li>
+            <li>Championed ethical government practices</li>
+            <li>Improved communication between residents and leadership</li>
+            <li>Advocated for fairness and accountability at all levels</li>
+            <li>Building a plan for a 2nd department in South Bloomfield</li>
+            <li>Added 4 full-time positions</li>
         </ul>
     </section>
     <section class="gallery">
